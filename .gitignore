@@ -1,0 +1,55 @@
+# 依赖目录
+node_modules
+.npm
+
+# 构建产物
+.vitepress/dist
+.vitepress/cache
+dist
+cache
+.temp
+.cache
+
+# 日志
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 编辑器和IDE文件
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+.settings/
+*.sublime-workspace
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# 本地环境文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 临时文件
+tmp
+temp
+.vercel
+.netlify
+.output
+
+# 测试覆盖率
+coverage 

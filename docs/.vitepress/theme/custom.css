@@ -1,0 +1,40 @@
+/* Logo样式定义 */
+.VPHero .image-src {
+  transform: rotate(-20deg); /* 左旋转20度 */
+  transition: transform 0.3s ease-in-out;
+}
+
+/* 当鼠标悬停时恢复原始角度，增加一些互动效果 */
+.VPHero .image-src:hover {
+  transform: rotate(0deg);
+}
+
+/* 粒子特效容器 */
+.VPHero .image-container {
+  position: relative;
+}
+
+/* 粒子特效样式 */
+.particle {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: rgba(66, 184, 131, 0.7); /* 使用VitePress的主题绿色 */
+  border-radius: 50%;
+  pointer-events: none;
+  animation: float 3s infinite ease-in-out;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0) translateX(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-20px) translateX(10px);
+    opacity: 0;
+  }
+} 
