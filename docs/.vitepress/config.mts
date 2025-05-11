@@ -7,22 +7,47 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '配置文档', link: '/config/' },
+      { text: 'App Store', link: 'https://apps.apple.com/us/app/pharos-pro/id1456610173' },
+      { text: '常见问题', link: '/faq' },
+      { text: '关于', link: '/about' }
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: {
+      '/config/': [
+        {
+          text: '配置文档',
+          items: [
+            { text: '总览', link: '/config/' },
+            {
+              text: '语法',
+              collapsed: false,
+              items: [
+                { text: 'YAML语法', link: '/config/syntax/yaml' },
+                { text: '域名通配符', link: '/config/syntax/wildcards' }
+              ]
+            },
+            { text: '全局配置', link: '/config/general' },
+            { text: 'DNS', link: '/config/dns' },
+            { text: '域名嗅探', link: '/config/rules' },
+            { text: '入站', link: '/config/rules' },
+            { text: '出站', link: '/config/rules' },
+            { text: '代理集合', link: '/config/rules' },
+            { text: '策略组', link: '/config/rules' },
+            { text: '代理规则', link: '/config/rules' },
+            { text: '规则集合', link: '/config/rules' },
+            { text: '子规则', link: '/config/rules' },
+            { text: '流量转发', link: '/config/rules' },
+            { text: 'NTP 服务', link: '/config/rules' },
+            { text: '实验性配置', link: '/config/rules' }
+          ]
+        }
+      ]
+    },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/PharosProject/PharosPro' }
     ]
   }
 })
