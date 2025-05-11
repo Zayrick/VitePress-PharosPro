@@ -29,7 +29,21 @@ export default defineConfig({
               ]
             },
             { text: '全局配置', link: '/config/general' },
-            { text: 'DNS', link: '/config/dns' },
+            {
+              text: 'DNS',
+              link: '/config/dns/config',
+              collapsed: true,
+              items: [
+                { text: '概述', link: '/config/dns/config' },
+                { text: '基本配置', link: '/config/dns/basic' },
+                { text: '解析模式', link: '/config/dns/modes' },
+                { text: 'DNS服务器', link: '/config/dns/servers' },
+                { text: '域名策略', link: '/config/dns/policies' },
+                { text: 'Fake-IP配置', link: '/config/dns/fake-ip' },
+                { text: '高级选项', link: '/config/dns/advanced' },
+                { text: '常见问题', link: '/config/dns/faq' }
+              ]
+            },
             { text: '域名嗅探', link: '/config/rules' },
             { text: '入站', link: '/config/rules' },
             { text: '出站', link: '/config/rules' },
