@@ -114,7 +114,7 @@ force-domain:
 ```
 
 - 用途：强制进行嗅探的域名列表
-- 格式：支持域名通配符语法（同[域名通配符](/config/syntax/wildcards)）
+- 格式：支持域名通配符语法（同[域名通配符](./syntax/wildcards.md)）
 - 作用：即使不满足常规嗅探条件，也会对这些域名进行嗅探
 
 ### skip-domain

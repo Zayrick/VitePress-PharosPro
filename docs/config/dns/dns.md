@@ -6,14 +6,14 @@ DNS (域名系统) 配置是 Pharos Pro 的核心功能之一，它决定了如�
 
 我们已将 DNS 配置文档拆分为以下几个小节，方便您查找所需的具体信息：
 
-- [DNS 配置概述](./dns/index.md) - DNS 配置的整体介绍和快速入门
-- [基本配置](./dns/basic.md) - 常用基础设置与参数说明
-- [解析模式](./dns/modes.md) - 详解 redir-host 和 fake-ip 两种模式
-- [DNS服务器](./dns/servers.md) - 各类DNS服务器配置及参数说明
-- [域名策略](./dns/policies.md) - 域名解析策略与规则设置
-- [Fake-IP配置](./dns/fake-ip.md) - 关于Fake-IP的详细配置
-- [高级选项](./dns/advanced.md) - 高级配置选项与性能优化
-- [常见问题](./dns/faq.md) - 常见DNS配置问题及解决方案
+- [DNS 配置概述](./index.md) - DNS 配置的整体介绍和快速入门
+- [基本配置](./basic.md) - 常用基础设置与参数说明
+- [解析模式](./modes.md) - 详解 redir-host 和 fake-ip 两种模式
+- [DNS服务器](./servers.md) - 各类DNS服务器配置及参数说明
+- [域名策略](./policies.md) - 域名解析策略与规则设置
+- [Fake-IP配置](./fake-ip.md) - 关于Fake-IP的详细配置
+- [高级选项](./advanced.md) - 高级配置选项与性能优化
+- [常见问题](./faq.md) - 常见DNS配置问题及解决方案
 
 ## 配置示例
 
@@ -65,4 +65,4 @@ dns:
       - '+.youtube.com'
 ```
 
-请访问[DNS配置概述](./dns/index.md)获取更多信息。
+请访问[DNS配置概述](./index.md)获取更多信息。

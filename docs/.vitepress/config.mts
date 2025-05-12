@@ -36,7 +36,7 @@ export default defineConfig({
               link: '/config/dns/config',
               collapsed: true,
               items: [
-                { text: '概述', link: '/config/dns/config' },
+                { text: '概述', link: '/config/dns/index' },
                 { text: '基本配置', link: '/config/dns/basic' },
                 { text: '解析模式', link: '/config/dns/modes' },
                 { text: 'DNS服务器', link: '/config/dns/servers' },
@@ -49,15 +49,14 @@ export default defineConfig({
             { text: '域名嗅探', link: '/config/sniffer' },
             { text: '入站', link: '/config/listeners' },
             { text: 'TUN 配置', link: '/config/tun' },
-            { text: '出站', link: '/config/rules' },
-            { text: '代理集合', link: '/config/rules' },
-            { text: '策略组', link: '/config/rules' },
+            { text: '代理集合', link: '/config/proxies' },
+            { text: '策略组', link: '/config/proxy-groups' },
             { text: '代理规则', link: '/config/rules' },
-            { text: '规则集合', link: '/config/rules' },
-            { text: '子规则', link: '/config/rules' },
-            { text: '流量转发', link: '/config/rules' },
-            { text: 'NTP 服务', link: '/config/rules' },
-            { text: '实验性配置', link: '/config/rules' }
+            { text: '规则集合', link: '/config/rule-sets' },
+            { text: '子规则', link: '/config/sub-rules' },
+            { text: '流量转发', link: '/config/traffic-forward' },
+            { text: 'NTP 服务', link: '/config/ntp' },
+            { text: '实验性配置', link: '/config/experimental' }
           ]
         }
       ]

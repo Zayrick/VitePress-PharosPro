@@ -19,28 +19,28 @@ Pharos Pro 虽然仅作为 iOS 和 iPadOS 应用提供，但其配置系统与 M
 
 本文档分为以下几个主要部分：
 
-- **[总览](/config/)**: 配置系统的基本介绍
+- **[总览](./index.md)**: 配置系统的基本介绍
 - **语法**: 
-  - [YAML语法](/config/syntax/yaml): 理解配置文件的基本语法
-  - [域名通配符](/config/syntax/wildcards): 学习如何使用通配符匹配域名
-- **[全局配置](/config/general)**: 基本的全局设置
-- **[DNS](/config/dns)**: DNS 相关配置
-- **[域名嗅探](/config/sniffing)**: 域名嗅探功能配置
-- **[入站](/config/inbound)**: 入站连接设置
-- **[出站](/config/outbound)**: 出站连接设置
-- **[代理集合](/config/proxies)**: 配置代理服务器
-- **[策略组](/config/proxy-groups)**: 策略组设置
-- **[代理规则](/config/rules)**: 流量规则配置
-- **[规则集合](/config/rule-sets)**: 规则集合管理
-- **[子规则](/config/sub-rules)**: 子规则配置
-- **[流量转发](/config/traffic-forward)**: 端口转发设置
-- **[NTP 服务](/config/ntp)**: 网络时间协议服务设置
-- **[实验性配置](/config/experimental)**: 实验性功能配置
+  - [YAML语法](./syntax/yaml.md): 理解配置文件的基本语法
+  - [域名通配符](./syntax/wildcards.md): 学习如何使用通配符匹配域名
+- **[全局配置](./general.md)**: 基本的全局设置
+- **[DNS](./dns/dns.md)**: DNS 相关配置
+- **[域名嗅探](./sniffer.md)**: 域名嗅探功能配置
+- **[入站](./listeners.md)**: 入站连接设置
+- **[出站](./tun.md)**: 出站连接设置
+- **[代理集合](./proxies.md)**: 配置代理服务器
+- **[策略组](./proxy-groups.md)**: 策略组设置
+- **[代理规则](./rules.md)**: 流量规则配置
+- **[规则集合](./rule-sets.md)**: 规则集合管理
+- **[子规则](./sub-rules.md)**: 子规则配置
+- **[流量转发](./traffic-forward.md)**: 端口转发设置
+- **[NTP 服务](./ntp.md)**: 网络时间协议服务设置
+- **[实验性配置](./experimental.md)**: 实验性功能配置
 
 ## 开始使用
 
-如果您是初次使用 Pharos Pro，建议从 [总览](/config/) 开始阅读，了解基本概念，然后按需浏览其他章节。
+如果您是初次使用 Pharos Pro，建议从 [总览](./index.md) 开始阅读，了解基本概念，然后按需浏览其他章节。
 
 ## 获取帮助
 
-如果您在使用过程中遇到任何问题，请查阅 [常见问题](/faq)。请注意，作为非官方文档，我们无法提供官方支持。如需官方帮助，请通过 App Store 中的应用页面联系开发者。
+如果您在使用过程中遇到任何问题，请查阅 [常见问题](../faq.md)。请注意，作为非官方文档，我们无法提供官方支持。如需官方帮助，请通过 App Store 中的应用页面联系开发者。

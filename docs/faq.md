@@ -29,7 +29,7 @@ Pharos Pro 支持多种导入配置的方式：
 
 ### 配置文件格式是什么？
 
-Pharos Pro 使用 YAML 格式的配置文件，与 Mihomo 配置格式完全兼容。详细的配置说明可以参考[配置文档](/config/)。
+Pharos Pro 使用 YAML 格式的配置文件，与 Mihomo 配置格式完全兼容。详细的配置说明可以参考[配置文档](./config/index.md)。
 
 ### 如何手动编辑配置？
 

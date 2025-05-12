@@ -115,7 +115,7 @@ rules:
   - RULE-SET,reject,REJECT
 ```
 
-详细信息请参阅[规则集合](/config/rule-sets)章节。
+详细信息请参阅[规则集合](./rule-sets.md)章节。
 
 ## 子规则
 
@@ -135,7 +135,7 @@ rules:
   - SUB-RULE,rule2,DIRECT
 ```
 
-详细信息请参阅[子规则](/config/sub-rules)章节。
+详细信息请参阅[子规则](./sub-rules.md)章节。
 
 ## 脚本规则
 

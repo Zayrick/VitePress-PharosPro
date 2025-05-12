@@ -3,7 +3,7 @@
 入站配置允许 Pharos Pro 作为服务器接收和处理来自其他设备的网络流量。通过配置不同类型的入站监听器，您可以使 Pharos Pro 作为各种代理服务器使用。
 
 ::: tip 相关配置
-如果您正在寻找简化的代理端口配置（如 `port`, `socks-port`, `mixed-port` 等），请查看[代理端口配置](/config/ports)文档。
+如果您正在寻找简化的代理端口配置（如 `port`, `socks-port`, `mixed-port` 等），请查看[代理端口配置](./ports.md)文档。
 :::
 
 ## 基本概念
