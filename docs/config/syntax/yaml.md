@@ -135,4 +135,4 @@ note: >
 ## 延伸阅读
 
 - [官方 YAML 规范](https://yaml.org/spec/)
-- [菜鸟教程 YAML 入门](https://www.runoob.com/yaml/yaml-tutorial.html)
+- [菜鸟教程 YAML 入门](https://www.runoob.com/w3cnote/yaml-intro.html)
