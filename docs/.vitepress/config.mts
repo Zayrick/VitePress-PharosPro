@@ -38,10 +38,9 @@ export default defineConfig({
             { text: '代理端口', link: '/config/ports' },
             {
               text: 'DNS',
-              link: '/config/dns/config',
+              link: '/config/dns/',
               collapsed: true,
               items: [
-                { text: '概述', link: '/config/dns/index' },
                 { text: '基本配置', link: '/config/dns/basic' },
                 { text: '解析模式', link: '/config/dns/modes' },
                 { text: 'DNS服务器', link: '/config/dns/servers' },
