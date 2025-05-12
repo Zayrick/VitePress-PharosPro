@@ -7,7 +7,7 @@ hero:
   text: "简单强大的代理工具"
   tagline: 目前 iOS 平台上对 Mihomo 的最佳实现，兼容 Mihomo 配置格式实现跨平台配置共享，网络优化爱好者的理想选择。
   image:
-    src: /logo.png
+    src: /public/logo.png
     alt: Pharos Pro
   actions:
     - theme: brand
