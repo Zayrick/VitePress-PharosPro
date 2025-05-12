@@ -29,6 +29,8 @@ export default defineConfig({
               ]
             },
             { text: '全局配置', link: '/config/general' },
+            { text: 'Hosts 配置', link: '/config/hosts' },
+            { text: '代理端口', link: '/config/ports' },
             {
               text: 'DNS',
               link: '/config/dns/config',
@@ -44,8 +46,9 @@ export default defineConfig({
                 { text: '常见问题', link: '/config/dns/faq' }
               ]
             },
-            { text: '域名嗅探', link: '/config/rules' },
-            { text: '入站', link: '/config/rules' },
+            { text: '域名嗅探', link: '/config/sniffer' },
+            { text: '入站', link: '/config/listeners' },
+            { text: 'TUN 配置', link: '/config/tun' },
             { text: '出站', link: '/config/rules' },
             { text: '代理集合', link: '/config/rules' },
             { text: '策略组', link: '/config/rules' },
